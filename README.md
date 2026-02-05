@@ -103,7 +103,7 @@ const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_ID";
 
 ---
 
-## 🌈 Colors Used
+## Colors Used
 
 | Purpose | Color |
 |---------|-------|
