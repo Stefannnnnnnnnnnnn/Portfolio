@@ -26,8 +26,7 @@ function App() {
       
       <footer className="footer">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
-          <p>Built with React & love</p>
+          <p>&copy; {new Date().getFullYear()} Stefan Oliver Borja. All rights reserved.</p>
         </div>
       </footer>
     </div>
