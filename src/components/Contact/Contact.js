@@ -7,7 +7,7 @@ const Contact = () => {
   // Social media and platform links
   const SOCIAL_LINKS = {
     github: "https://github.com/Stefannnnnnnnnnnnn",      
-    linkedin: "https://linkedin.com/in/yourprofile", 
+    linkedin: "https://www.linkedin.com/in/stefan-oliver-borja-9171513a0/", 
     twitter: "",                                      
     instagram: "",                                   
     facebook: "",                                    
@@ -102,7 +102,7 @@ const Contact = () => {
               <i className="fas fa-envelope"></i>
               <div>
                 <span>Email</span>
-                <a href={`mailto:${YOUR_EMAIL}`}>{YOUR_EMAIL}</a>
+                <p style={{ color: '#ffffff', fontSize: '1.1rem', margin: 0 }}>{YOUR_EMAIL}</p>
               </div>
             </div>
             
