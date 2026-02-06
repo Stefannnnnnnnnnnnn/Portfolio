@@ -20,7 +20,7 @@ const Projects = () => {
       title: "Throwaway",
       description: "ThrowAway is a student-developed smart waste management system that uses a webcam, Arduino-controlled conveyor belt, and computer vision to sort trash in real time. It combines YOLO for detection and CNN for classification, sorting items into six categories: glass, metal, plastic, paper, organic, and unsupported. The project demonstrates automated waste sorting with hardware and AI integration.",
       technologies: ["Python, C++, Pytorch, CNN, YOLO"],
-      image: "", 
+      image: "https://raw.githubusercontent.com/Stefannnnnnnnnnnnn/Portfolio/refs/heads/main/pictures/Throwaway.jpg", 
       liveLink: "https://drive.google.com/file/d/1cWRKywTAQK4aWoACEastiML1JHEhZrr6/view", 
       githubLink: "https://github.com/pazjanleandy/ThrowAway"
     },
@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Giglyst",
       description: "Giglyst is a Figma prototype of a booking platform for musicians, solo artists, bands, organizers, and venues. The design showcases user profiles, availability status, and contract management features, including a down payment system. This prototype focuses on demonstrating the user interface and workflow of the app, serving as a visual representation before full development.",
       technologies: ["Figma"],
-      image: "",
+      image: "https://raw.githubusercontent.com/Stefannnnnnnnnnnnn/Portfolio/refs/heads/main/pictures/Giglyst.jpg",
       liveLink: "https://drive.google.com/file/d/1_SdI2BoRjfa753omFSiLSQNm4CKtr-DC/view?fbclid=IwY2xjawPyJWZleHRuA2FlbQIxMABicmlkETFKaTh4QjdZbVJBbnh2cDZWc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHuKdYxCWUVJqvb1Z0pL7qTo3mt-o_YfTHaQ6e5WJ1PqjPMOf9u-c2LwsoNkw_aem_y9B4lQwUNrUvuT_AX-NN6g",
       githubLink: ""
     },
