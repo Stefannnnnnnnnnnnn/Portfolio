@@ -8,7 +8,12 @@ const Hero = () => {
   // job title
   const YOUR_TITLE = "Aspiring Developer / Student Intern";
   //Short Introduction
-  const SHORT_INTRO = `No intro yet`;
+  const SHORT_INTRO = `I am Stefan Oliver Borja, a Bachelor of Science in Computer Science student 
+  with a strong interest in machine learning, AI automation, computer vision, and data analysis. 
+  I am currently interning at Highly Succeed, gaining hands-on experience in the industry. 
+  I am also studying web development (MERN stack) and quality assurance, 
+  including QA automation, to expand my skills and continue growing through practical experience and 
+  continuous learning.`;
 
   // Add profile image
   const PROFILE_IMAGE = "";

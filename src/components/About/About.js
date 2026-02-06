@@ -2,7 +2,13 @@ import React from 'react';
 import './About.css';
 
 const About = () => {
-  const BACKGROUND_TEXT = `No background yet`;
+  const BACKGROUND_TEXT = `I am passionate about machine learning and AI, 
+  which has been the main focus of my studies and thesis projects. 
+  In the past, I have also explored web and mobile development, 
+  and I am currently expanding my skills in web development technologies like the MERN stack 
+  and quality assurance, including QA automation. Beyond my studies, 
+  I am interested in data analysis and enjoy applying my knowledge to solve real-world problems 
+  while continuously learning new technologies.`;
   //My skills
   const SKILLS = [
     // Programming & Core

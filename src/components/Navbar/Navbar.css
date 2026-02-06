@@ -9,6 +9,7 @@
   background: transparent;
 }
 
+/* When scrolled - white background, dark text */
 .navbar.scrolled {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
@@ -16,6 +17,23 @@
   padding: 15px 0;
 }
 
+/* HOME STATE: Text is WHITE on purple gradient background */
+.navbar:not(.scrolled) .nav-menu li {
+  color: #ffffff;
+}
+
+.navbar:not(.scrolled) .hamburger {
+  color: #ffffff;
+}
+
+/* Logo at home - solid white instead of gradient */
+.navbar:not(.scrolled) .nav-logo {
+  background: none;
+  -webkit-text-fill-color: #ffffff;
+  color: #ffffff;
+}
+
+/* SCROLLED STATE: Text is dark on white background (default) */
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -49,16 +67,21 @@
   font-weight: 500;
   cursor: pointer;
   position: relative;
-  color: #2d3748;
+  color: #2d3748;  /* Dark text when scrolled */
   transition: 0.3s ease;
   padding: 5px 0;
 }
 
-/* Active state for navigation */
+/* Active state - different for home vs scrolled */
+.navbar:not(.scrolled) .nav-menu li.active {
+  color: #ffffff;
+}
+
 .nav-menu li.active {
   color: #667eea;
 }
 
+/* Underline animation */
 .nav-menu li::after {
   content: '';
   position: absolute;
@@ -70,24 +93,34 @@
   transition: 0.3s ease;
 }
 
+.navbar:not(.scrolled) .nav-menu li::after {
+  background: #ffffff;  /* White underline at home */
+}
+
 .nav-menu li:hover::after,
 .nav-menu li.active::after {
   width: 100%;
+}
+
+/* Hover colors */
+.navbar:not(.scrolled) .nav-menu li:hover {
+  color: #ffffff;
 }
 
 .nav-menu li:hover {
   color: #667eea;
 }
 
-/* Hamburger Menu (Mobile) */
+/* Hamburger Menu */
 .hamburger {
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #2d3748;
+  color: #2d3748;  /* Dark when scrolled */
+  transition: 0.3s ease;
 }
 
-/* Navbar Responsive */
+/* Responsive */
 @media (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -102,11 +135,16 @@
     padding: 20px 0;
     gap: 20px;
   }
-  
+
   .nav-menu.active {
     left: 0;
   }
-  
+
+  /* Mobile menu always dark text on white background */
+  .nav-menu li {
+    color: #2d3748 !important;
+  }
+
   .hamburger {
     display: block;
   }

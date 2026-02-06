@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="nav-container">
         {/*logo or brand name*/}
         <div className="nav-logo" onClick={() => scrollToSection('home')}>
-          Logo
+          Portfolio
         </div>
 
         {/* Desktop Navigation Links*/}
