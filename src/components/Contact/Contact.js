@@ -13,7 +13,7 @@ const Contact = () => {
     facebook: "",                                    
   };
   
-  const CONTACT_MESSAGE = "Have a question or want to work together? Feel free to reach out!";
+  const CONTACT_MESSAGE = "Open to opportunities and collaborations.";
   //formspree id
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/meeljegk";
 
@@ -111,7 +111,7 @@ const Contact = () => {
               <i className="fas fa-clock"></i>
               <div>
                 <span>Availability</span>
-                <p>Open to opportunities & collaborations</p>
+                <p>Typically available 9:00 AM – 11:00 PM</p>
               </div>
             </div>
             
@@ -187,7 +187,7 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="Name"
                     required
                   />
                 </div>
@@ -200,7 +200,7 @@ const Contact = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="Email"
                     required
                   />
                 </div>
@@ -214,7 +214,7 @@ const Contact = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  placeholder="Project Collaboration / Job Opportunity / Question"
+                  placeholder="Subject"
                   required
                 />
               </div>
@@ -226,7 +226,7 @@ const Contact = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Hello, I'd like to discuss..."
+                  placeholder="Type your message here..."
                   rows="5"
                   required
                 ></textarea>
