@@ -11,8 +11,9 @@ const Hero = () => {
   const SHORT_INTRO = `I am Stefan Oliver Borja, a Bachelor of Science in Computer Science student 
   with a strong interest in machine learning, AI automation, computer vision, and data analysis. 
   I am currently interning at Highly Succeed, gaining hands-on experience in the industry. 
-  I am also studying web development (MERN stack) and quality assurance, 
-  including QA automation, to expand my skills and continue growing through practical experience and 
+  I am also studying web development technologies such as JavaScript, Node.js, the MERN stack, and Tailwind CSS, 
+  along with quality assurance practices including QA automation. 
+  These help me expand my skills and continue growing through hands-on experience and 
   continuous learning.`;
 
   // Add profile image
